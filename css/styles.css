@@ -976,6 +976,7 @@ border:none;
 
  }
  .subs-input{
+  display: flex;
     width: 264px;
     height: 40px;
     background-color: var(--primary-text-color);
@@ -985,15 +986,13 @@ border:none;
 
  }
  .footer-form-title{
-    top: 0;
-    left: 0;
-
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-    color: #FFFFFF;
- }
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;}
+  
  .footer-wrapper{
    display: inline-block;
    align-items: center;
@@ -1053,6 +1052,7 @@ color: #ffffff;
 }
 
 .icon-subscribe{
+  display: flex;
   fill: #FFFFFF;
 
 
