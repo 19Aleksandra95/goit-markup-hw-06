@@ -528,8 +528,8 @@ color: #434455;
   display: flex;
   padding: 100px 0;
   background-color:var(--text-color);
-  
 }
+
 .footer-container{
   display: flex;
   align-items: baseline;
@@ -889,7 +889,9 @@ border:none;
       left:16px ;
       transform: translateY(-50%);
       pointer-events: none;
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  
 
   .form-filed:focus +.form-icon{
       fill: var(--hover-color);
@@ -913,9 +915,7 @@ border:none;
   
       }  
 
- ::placeholder{
-      
-      }
+
    .form-comment:focus{
       outline: 1px solid
       var(--hover-color);
@@ -964,9 +964,10 @@ border:none;
    
 
 .footer-form {
+
   padding: 0;
   margin: 0;
-  margin-left: 80px;
+margin-left: 80px;
 }
 
 .footer-form-title {
@@ -1061,3 +1062,4 @@ border:none;
 .footer-form-btn-icon {
   fill: var(--primary-white);
 }
+
