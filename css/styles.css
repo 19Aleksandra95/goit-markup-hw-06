@@ -793,7 +793,7 @@ width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding: 24px;
+  padding: 72px 24px 24px;
   
   min-width: 408px;
   min-height: 576px;
@@ -844,8 +844,6 @@ border:none;
 
 
 .modal-title{
-  display: block; 
-  margin-top: 48px;
   margin-bottom: 16px; 
   font-style: normal;
   font-weight: 500;
@@ -877,7 +875,7 @@ border:none;
       padding-left: 34px;
        border-radius: 4px;
        outline-offset: -1px;
-       border: 1px solid;
+       border: 1px solid #8E8F99;
   }
 
   .form-filed:focus{
@@ -899,13 +897,13 @@ border:none;
    .form-comment{
       display: block;
       width: 100%;
-      height: 100px;
+      height: 120px;
       padding: 4px;
       margin-bottom: 16px;
       resize: none;
       border-radius: 4px;
        outline-offset: -1px;
-       border: 1px solid;
+       border: 1px solid #8E8F99;
   
        font-weight: 400;
        font-size: 12px;
@@ -1029,6 +1027,7 @@ border:none;
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
   gap: 16px;
   width: 165px;
   height: 40px;
